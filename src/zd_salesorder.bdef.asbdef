@@ -1,0 +1,9 @@
+unmanaged implementation in class zbp_d_salesorder unique;
+//strict; //Comment this line in to enable strict mode. The strict mode is prerequisite to be future proof regarding syntax and to be able to release your BO.
+
+define behavior for ZD_SALESORDER
+{
+  field ( mandatory : create ) SalesOrderType, SalesOrganization, DistributionChannel, OrganizationDivision, SoldToParty, TransactionCurrency, TotalNetAmount;
+  field ( readonly ) SalesOrder, CreatedByUser, CreationDate;
+  create;
+}

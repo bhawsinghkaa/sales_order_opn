@@ -1,0 +1,5 @@
+@EndUserText.label: 'ZORDER'
+@OData.schema.name: 'API_SALES_ORDER_SRV'
+define service ZORDER {
+ expose ZA_SALESORDER; 
+ } 
