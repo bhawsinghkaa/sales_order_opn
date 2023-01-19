@@ -40,6 +40,7 @@
       </item>
      </LINKS>
      <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+     <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
     </METADATA>
     <CONTENT>
      <BIND_TYPE_IMPL>
@@ -53,11 +54,17 @@
        <SERVICE_CONTENT>
         <item>
          <SERVICE_VERSION>0001</SERVICE_VERSION>
+         <RELEASE_STATE>NOT_RELEASED</RELEASE_STATE>
          <SRVD_REF>
           <URI>/sap/bc/adt/ddic/srvd/sources/zsd_salesorder</URI>
           <TYPE>SRVD/SRV</TYPE>
           <NAME>ZSD_SALESORDER</NAME>
          </SRVD_REF>
+         <BIND_TYPE_DATA>
+          <CONTENT>
+           <ENCODING>base64</ENCODING>
+          </CONTENT>
+         </BIND_TYPE_DATA>
         </item>
        </SERVICE_CONTENT>
       </item>

@@ -67,6 +67,8 @@ CLASS ZCL_ORDER_DETAILS IMPLEMENTATION.
             ENDIF.
           ENDIF.
 
+          lo_request->request_count(  ).
+
           " Execute the request and retrieve the business data
           lo_response = lo_request->execute( ).
           lo_response->get_business_data( IMPORTING et_business_data = lt_business_data ).
